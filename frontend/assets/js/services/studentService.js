@@ -42,7 +42,7 @@ export function apiUpdate(id, data) {
   });
 }
 
-// // Delete a student
-// export function apiDelete(id) {
-//   return fetch(`${API_URL}/${id}`, { method: "DELETE" });
-// }
+// Delete a student
+export function apiDelete(id) {
+  return fetch(`${API_URL}/${id}`, { method: "DELETE" });
+}
